@@ -1,14 +1,13 @@
 namespace APBD_Cw2_s33062;
 
-public class Rented
-{
-    DateTime _date;
-    DateTime PlannedReturn;
-    DateTime? Return = null;
-    int? ToPay = null;
-    public Rented(DateTime date)
-    {
-        _date = date;
-    }
+public class Rented(User person,DateTime date,DateTime plannedReturn)
+{    
+    private User Person { get; set; } = person;
+    DateTime Date{ get; set; }=date;
+    private DateTime PlannedReturn { get; set; } = plannedReturn;
+    DateTime? Return { get; set; } = null;
+    int? ToPay{ get; set; } = null;
+
     
+
 }

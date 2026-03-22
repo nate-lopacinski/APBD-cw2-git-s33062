@@ -1,11 +1,7 @@
 ﻿Console.WriteLine("Hello, World!");
 
 
-//sprzet
-//laptop projektor ...
-//2+ typy użtkownikow
-//wypozyczenie: moment wypożyczenia, termin zwrotu, faktyczny zwrot oraz wynikające opłaty lub kary.
-
+//is this being absraxt good or should i just solve it w an enum
 public abstract class User(String cName,String cSurname)
 {
     private static int _nextId = 1;
@@ -25,3 +21,25 @@ public class Employee(String cName, String cSurname) : User(cName, cSurname)
 {
 
 }
+
+
+
+
+//user
+//-add user
+//-maybe add fee??
+//
+
+
+//add equpiment
+//rent equipment(user, equipment)4
+//view list przeterminowanych wypozyczen
+//list all equipment
+//list available equipment
+
+//set status of equipment as unavailable
+
+//view currently rented by user
+
+//generate report
+
