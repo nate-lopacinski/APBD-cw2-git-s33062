@@ -20,3 +20,8 @@ public class Student(String cName, String cSurname) : User(cName, cSurname)
 {
 
 }
+
+public class Employee(String cName, String cSurname) : User(cName, cSurname)
+{
+
+}
