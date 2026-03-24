@@ -6,8 +6,13 @@ public class Rented(User person,DateTime date,DateTime plannedReturn)
     DateTime Date{ get; set; }=date;
     private DateTime PlannedReturn { get; set; } = plannedReturn;
     DateTime? Return { get; set; } = null;
-    int? ToPay{ get; set; } = null;
-
     
+    List<Fee> Fees = new List<Fee>();
+}
+
+public class Fee()
+{
+    bool paid = false;
+    private DateTime? paidDate = null;
 
 }
