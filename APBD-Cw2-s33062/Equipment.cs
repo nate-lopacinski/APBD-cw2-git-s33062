@@ -7,7 +7,7 @@ enum Status
     Unavailable
 }
 
-public abstract class Equipment(String cName,String cSurname)
+public abstract class Equipment()
 {
     private static int _nextId = 1;
     private Status currStatus{ get; set; } = Status.Available;
@@ -15,8 +15,9 @@ public abstract class Equipment(String cName,String cSurname)
     
 }
 
-public class Laptop(String cName,String cSurname) : Equipment(cName, cSurname)
+public class Laptop() : Equipment()
 {
     private String? model{ get; set; } = null;
+    private String? batteryLife{ get; set; } = null;
     
 }
