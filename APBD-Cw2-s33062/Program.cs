@@ -29,7 +29,7 @@ Console.WriteLine("Hello, World!");
 
 
 
-
+teest
 //alr zdecydowac strukture komendy
 // static void ParseCommend(List<String> args)
 // {
