@@ -3,11 +3,9 @@ using APBD_Cw2_s33062.Logic;
 namespace APBD_Cw2_s33062;
 
 public class ParseCommend1
-
-
 {
     
-static void ParseCommend(List<String> args)
+static public void ParseCommend(List<String> args)
 {
 
     switch (args[0])
